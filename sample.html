@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple personal webpage showcasing projects and skills in web development">
+    <meta name="keywords" content="web development, projects, personal webpage">
+    <title>My Web Page</title>
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #282c34; /* Dark background */
+            color: #ffffff; /* Light text */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #61dafb; /* Light blue header */
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #20232a; /* Dark nav */
+            padding: 15px 0;
+        }
+
+        nav a {
+            background-color: #61dafb; /* Light blue links */
+            color: #20232a; /* Dark text */
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 0 10px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #21a1f1; /* Darker blue on hover */
+        }
+
+        main {
+            flex: 1;
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+            background-color: #282c34; /* Dark background for main content */
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #61dafb; /* Light blue footer */
+            text-align: center;
+            padding: 10px;
+            color: #20232a;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+            nav a {
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Web Page</h1>
+        <p>A simple webpage styled with CSS and hosted on GitHub Pages</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <h2 id="about">About Me</h2>
+        <p>Hi! I'm a web enthusiast learning how to create awesome websites. This is my simple webpage to experiment with HTML, CSS, and hosting on GitHub Pages. I enjoy coding, learning new technologies, and building creative projects. Below you'll find more about some of the projects I've worked on.</p>
+
+        <h2 id="projects">Projects</h2>
+        <ul>
+            <li><strong>Project 1:</strong> An AI-integrated stethoscope.</li>
+            <li><strong>Project 2:</strong> A personal blog created with HTML and CSS.</li>
+            <li><strong>Project 3:</strong> A task manager app that helps organize daily tasks.</li>
+        </ul>
+
+        <h2 id="contact">Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to <a href="mailto:your-b21ds084@mace.ac.in">email me</a> or find me on <a href="https://github.com/athil123">GitHub</a>.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Web Page | Powered by GitHub Pages</p>
+    </footer>
+
+</body>
+</html>
+
